@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+src/*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+
+# market data is supplied by the user (see data/README.md); outputs are regenerated
+data/*
+!data/README.md
+results/
+
+# machine-local settings: data file names and dates
+src/jolto/config_local.py
