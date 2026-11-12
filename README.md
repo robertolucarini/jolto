@@ -15,6 +15,9 @@ prices the Rough SABR Forward Market Model of Adachi et al. (2025), in PyTorch, 
   spread options, with Greeks by adjoint algorithmic differentiation.
 - **Simulation** of the forward and discount curves of the calibrated model.
 
+The theory is in [jolto-theory.pdf](jolto-theory.pdf), which sets out the models and the numerical
+methods and maps each method to the code that implements it.
+
 ## Install
 
 Python 3.11 or 3.12.
